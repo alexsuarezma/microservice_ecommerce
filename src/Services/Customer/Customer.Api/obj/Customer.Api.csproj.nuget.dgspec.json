@@ -1,0 +1,601 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Api\\Customer.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\Common.Logging\\Common.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\Common.Logging\\Common.Logging.csproj",
+        "projectName": "Common.Logging",
+        "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\Common.Logging\\Common.Logging.csproj",
+        "packagesPath": "C:\\Users\\fsuarez\\.nuget\\packages\\",
+        "outputPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\Common.Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fsuarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Api\\Customer.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Api\\Customer.Api.csproj",
+        "projectName": "Customer.Api",
+        "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Api\\Customer.Api.csproj",
+        "packagesPath": "C:\\Users\\fsuarez\\.nuget\\packages\\",
+        "outputPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fsuarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\Common.Logging\\Common.Logging.csproj"
+              },
+              "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj": {
+                "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj"
+              },
+              "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Service.EventHandlers\\Customer.Service.EventHandlers.csproj": {
+                "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Service.EventHandlers\\Customer.Service.EventHandlers.csproj"
+              },
+              "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Service.Queries\\Customer.Service.Queries.csproj": {
+                "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Service.Queries\\Customer.Service.Queries.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.14, 5.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj",
+        "projectName": "Customer.Domain",
+        "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj",
+        "packagesPath": "C:\\Users\\fsuarez\\.nuget\\packages\\",
+        "outputPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fsuarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj",
+        "projectName": "Customer.Persistence.Database",
+        "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj",
+        "packagesPath": "C:\\Users\\fsuarez\\.nuget\\packages\\",
+        "outputPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fsuarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj": {
+                "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Service.EventHandlers\\Customer.Service.EventHandlers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Service.EventHandlers\\Customer.Service.EventHandlers.csproj",
+        "projectName": "Customer.Service.EventHandlers",
+        "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Service.EventHandlers\\Customer.Service.EventHandlers.csproj",
+        "packagesPath": "C:\\Users\\fsuarez\\.nuget\\packages\\",
+        "outputPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Service.EventHandlers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fsuarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj": {
+                "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Service.Queries\\Customer.Service.Queries.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Service.Queries\\Customer.Service.Queries.csproj",
+        "projectName": "Customer.Service.Queries",
+        "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Service.Queries\\Customer.Service.Queries.csproj",
+        "packagesPath": "C:\\Users\\fsuarez\\.nuget\\packages\\",
+        "outputPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Service.Queries\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fsuarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj": {
+                "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj"
+              },
+              "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Collection\\Service.Common.Collection.csproj": {
+                "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Collection\\Service.Common.Collection.csproj"
+              },
+              "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Mapping\\Service.Common.Mapping.csproj": {
+                "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Mapping\\Service.Common.Mapping.csproj"
+              },
+              "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Paging\\Service.Common.Paging.csproj": {
+                "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Paging\\Service.Common.Paging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Collection\\Service.Common.Collection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Collection\\Service.Common.Collection.csproj",
+        "projectName": "Service.Common.Collection",
+        "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Collection\\Service.Common.Collection.csproj",
+        "packagesPath": "C:\\Users\\fsuarez\\.nuget\\packages\\",
+        "outputPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Collection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fsuarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Mapping\\Service.Common.Mapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Mapping\\Service.Common.Mapping.csproj",
+        "projectName": "Service.Common.Mapping",
+        "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Mapping\\Service.Common.Mapping.csproj",
+        "packagesPath": "C:\\Users\\fsuarez\\.nuget\\packages\\",
+        "outputPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Mapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fsuarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Paging\\Service.Common.Paging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Paging\\Service.Common.Paging.csproj",
+        "projectName": "Service.Common.Paging",
+        "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Paging\\Service.Common.Paging.csproj",
+        "packagesPath": "C:\\Users\\fsuarez\\.nuget\\packages\\",
+        "outputPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Paging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fsuarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Collection\\Service.Common.Collection.csproj": {
+                "projectPath": "D:\\escritorio\\PROJECTS\\SAN32.Commerce\\src\\Services\\Service.Common.Collection\\Service.Common.Collection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

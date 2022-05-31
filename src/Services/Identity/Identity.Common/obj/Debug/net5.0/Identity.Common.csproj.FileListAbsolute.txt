@@ -1,0 +1,12 @@
+D:\escritorio\PROJECTS\SAN32.Commerce\src\Services\Identity\Identity.Common\bin\Debug\net5.0\Identity.Common.deps.json
+D:\escritorio\PROJECTS\SAN32.Commerce\src\Services\Identity\Identity.Common\bin\Debug\net5.0\Identity.Common.dll
+D:\escritorio\PROJECTS\SAN32.Commerce\src\Services\Identity\Identity.Common\bin\Debug\net5.0\Identity.Common.pdb
+D:\escritorio\PROJECTS\SAN32.Commerce\src\Services\Identity\Identity.Common\obj\Debug\net5.0\Identity.Common.csproj.AssemblyReference.cache
+D:\escritorio\PROJECTS\SAN32.Commerce\src\Services\Identity\Identity.Common\obj\Debug\net5.0\Identity.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\escritorio\PROJECTS\SAN32.Commerce\src\Services\Identity\Identity.Common\obj\Debug\net5.0\Identity.Common.AssemblyInfoInputs.cache
+D:\escritorio\PROJECTS\SAN32.Commerce\src\Services\Identity\Identity.Common\obj\Debug\net5.0\Identity.Common.AssemblyInfo.cs
+D:\escritorio\PROJECTS\SAN32.Commerce\src\Services\Identity\Identity.Common\obj\Debug\net5.0\Identity.Common.csproj.CoreCompileInputs.cache
+D:\escritorio\PROJECTS\SAN32.Commerce\src\Services\Identity\Identity.Common\obj\Debug\net5.0\Identity.Common.dll
+D:\escritorio\PROJECTS\SAN32.Commerce\src\Services\Identity\Identity.Common\obj\Debug\net5.0\refint\Identity.Common.dll
+D:\escritorio\PROJECTS\SAN32.Commerce\src\Services\Identity\Identity.Common\obj\Debug\net5.0\Identity.Common.pdb
+D:\escritorio\PROJECTS\SAN32.Commerce\src\Services\Identity\Identity.Common\obj\Debug\net5.0\ref\Identity.Common.dll
